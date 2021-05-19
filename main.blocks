@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="3Y.!MWTLy9[+(7x@Mk?k">mySprite</variable><variable type="KIND_SpriteKind" id="p2X(nPV:)=SBSLJLC?Bz">Player</variable><variable type="KIND_SpriteKind" id="?P?{86+mkJiPXu[w[uJy">Projectile</variable><variable type="KIND_SpriteKind" id="d7pjojViAe?S?RimwA:)">Food</variable><variable type="KIND_SpriteKind" id="2k2_t(`vch7Np1F~G,)9">Enemy</variable></variables><block type="pxt-on-start" id="^@^uR}(s7CBCs^6$AlyE" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="C.^OdUQ]TV{``%)VS_)j"><field name="VAR" id="3Y.!MWTLy9[+(7x@Mk?k">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="|KY@}u)9=V#busEgI%X?"><value name="img"><shadow type="screen_image_picker" id="BcD+G0e_S,K._NFl{I^-"><field name="img">img`
+. . . . f f f f . . . . 
+. . f f e e e e f f . . 
+. f f e e e e e e f f . 
+f f f f 4 e e e f f f f 
+f f f 4 4 4 e e f f f f 
+f f f 4 4 4 4 e e f f f 
+f 4 e 4 4 4 4 4 4 e 4 f 
+f 4 4 f f 4 4 f f 4 4 f 
+f e 4 d d d d d d 4 e f 
+. f e d d b b d d e f . 
+. f f e 4 4 4 4 e f f . 
+e 4 f b 1 1 1 1 b f 4 e 
+4 d f 1 1 1 1 1 1 f d 4 
+4 4 f 6 6 6 6 6 6 f 4 4 
+. . . f f f f f f . . . 
+. . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"BcD+G0e_S,K._NFl{I^-"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="hZ+~`62JI^|rsGKvNT2{"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="tVYsQ$dLapcC$;T6x7v3"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="8#LVReMY]M+].wLe_Yza"><field name="VAR" id="3Y.!MWTLy9[+(7x@Mk?k">mySprite</field></block></value><next><block type="tilemap_editor" id="b:;2pCx[{N|I#LQold]8"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="camerafollow" id="Z_+J|S7V@Y/FjjSW-;#g"><value name="sprite"><block type="variables_get" id="YCj[v$z~OF_Q*$C[@@#g"><field name="VAR" id="3Y.!MWTLy9[+(7x@Mk?k">mySprite</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
